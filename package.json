@@ -1,0 +1,36 @@
+{
+  "name": "redditscraper",
+  "version": "1.0.0",
+  "description": "scrapes reddit's front page of subreddits for scores and titles",
+  "main": "./app/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "scrape": "^0.2.3",
+    "sinon": "^7.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "reddit",
+    "command",
+    "line",
+    "interface",
+    "tool",
+    "data",
+    "unit",
+    "test"
+  ],
+  "author": "Ian Ho <ho.ian96@gmail.com> (http://ianhoportfolio.com)",
+  "license": "ISC",
+  "bin": {
+    "reddit-scrape": "./app/app.js"
+  }
+}
